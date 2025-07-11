@@ -1,5 +1,5 @@
 import React from "react";
-import { router, Link } from "@inertiajs/react";
+import { router, Link, Head } from "@inertiajs/react";
 import SidebarLayout from "../Components/Layout/SidebarLayout";
 
 export default function Dashboard({
@@ -20,6 +20,7 @@ export default function Dashboard({
 
     return (
         <SidebarLayout>
+            <Head title="Dashboard" />
             <div className="max-w-7xl mx-auto p-6 space-y-8">
                 {/* Welcome */}
                 <div className="text-2xl font-bold">

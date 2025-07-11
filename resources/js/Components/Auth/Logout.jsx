@@ -1,12 +1,12 @@
 import React from "react";
 import { router } from "@inertiajs/react";
 
-export default function Logout() {
-    const handleLogout = (e) => {
-        e.preventDefault();
-        router.post("/logout");
-    };
+export const handleLogout = (e) => {
+    e.preventDefault();
+    router.post("/logout");
+};
 
+export default function Logout() {
     return (
         <form onSubmit={handleLogout}>
             <button

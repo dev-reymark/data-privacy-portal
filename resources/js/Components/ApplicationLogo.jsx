@@ -18,7 +18,7 @@ export default function ApplicationLogo({ className = "h-8 w-auto" }) {
                 />
             </svg>
             <span className="font-bold text-lg text-gray-800">
-                Data Privacy Portal
+                DSC Portal
             </span>
         </div>
     );

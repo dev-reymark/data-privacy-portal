@@ -6,7 +6,7 @@ import { createRoot } from "react-dom/client";
 import { HeroUIProvider } from "@heroui/react";
 import { Toaster } from "react-hot-toast";
 
-const appName = import.meta.env.VITE_APP_NAME || "Data Privacy Portal";
+const appName = import.meta.env.VITE_APP_NAME || "DSC Portal";
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
